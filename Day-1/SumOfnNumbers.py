@@ -23,3 +23,5 @@ print(sum)
 #BestCase = O(1) - Constant Time
 #BestCase = O(n) - Linear Time
 #Average Case = O(n^2) - Quadratic Time
+
+#In this program we use BestCase = O(1) - Constant Time
