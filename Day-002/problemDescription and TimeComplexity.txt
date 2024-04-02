@@ -1,0 +1,20 @@
+Description:
+Write a progarm to split a string and convert it into an array of words.
+
+
+sample input-1:
+Enter a sentence:"Robin Singh"
+
+sample output-1:
+["Robin", "Singh"]
+
+sample input-2:
+Enter a sentence:"I love arrays they are my favorite"
+
+sample output-2:
+["I", "love", "arrays", "they", "are", "my", "favorite"]
+
+
+Time complexity:
+#In ConvertStringToList.py for all methods the time complexity should be O(n)
+#coz we are iterating all the charecters of a string in that problem
