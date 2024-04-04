@@ -9,11 +9,13 @@ for i in range(n):      #Time Complexity:O(n)
     x=x+l[0]
 print(l)
 print("-------------------------")
+
 #using list comprehension
 x,n=int(input("Enter x value:")),int(input("Enter n value:"))
 l=[i * x for i in range(1, n + 1)]      #Time Complexity:O(n)
 print(l)
 print("-------------------------")
+
 #using range function
 x,n=int(input("Enter x value:")),int(input("Enter n value:"))
 l=list(range(x, n * x + 1, x))      #Time Complexity:O(n)
