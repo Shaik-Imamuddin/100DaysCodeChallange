@@ -1,0 +1,36 @@
+Invert Values:
+
+Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
+
+sample-input-1:
+Enter List Length:5
+Enter List values:34
+Enter List values:67
+Enter List values:45
+Enter List values:89
+Enter List values:-99
+sample-output-1:
+[34, 67, 45, 89, -99]
+[-34, -67, -45, -89, 99]
+
+sample-input-2:
+Enter List Length:5
+Enter List Elements:23
+Enter List Elements:-87
+Enter List Elements:-5
+Enter List Elements:12
+Enter List Elements:-7
+sample-output-2:
+[23, -87, -5, 12, -7]
+[-23, 87, 5, -12, 7]
+
+sample-input-3:
+[] 
+sample-output-3:
+[]
+
+You can assume that all values are integers. Do not mutate the input array/list.
+
+Time complexity:
+#In InvertValues.py for all methods the time complexity should be O(n).
+#coz we are iterating loop till n value in that problem.
