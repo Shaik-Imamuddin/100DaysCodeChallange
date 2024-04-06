@@ -1,0 +1,38 @@
+problem Description:
+Given a string s, your task is to return another string such that even-indexed and odd-indexed characters of s are grouped and the groups are space-separated. Even-indexed group comes as first, followed by a space, and then by the odd-indexed part.
+
+
+Examples
+input:    "CodeWars" => "CdWr oeas"
+           ||||||||      |||| ||||
+indices:   01234567      0246 1357
+
+
+Even indices 0, 2, 4, 6, so we have "CdWr" as the first group.
+Odd indices are 1, 3, 5, 7, so the second group is "oeas".
+And the final string to return is "Cdwr oeas".
+
+
+Note:
+Tested strings are at least 8 characters long.
+
+sample-input-1:
+Enter a string:wonderful
+sample-output-1:
+wnefl odru
+
+sample-input-2:
+Enter a string:exploring
+sample-output-2:
+epoig xlrn
+
+sample-input-3:
+Enter a string:isitgood
+sample-output-3:
+iigo stod
+
+
+Time complexity:
+#In OddEvenStringSort.py for all methods the time complexity should be O(n).
+#coz we are iterating loop till total length of string in that problem.
+#slicing method also retrive all possible till the length of string.
