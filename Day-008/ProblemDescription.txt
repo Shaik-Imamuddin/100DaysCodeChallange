@@ -1,0 +1,37 @@
+###Lucky number
+Description:
+Write a program to find if a number is lucky or not. If the sum of all digits is 0 or multiple of 9 then the number is lucky.
+
+1892376 => 1+8+9+2+3+7+6 = 36. 36 is divisible by 9, hence number is lucky.
+
+print true for lucky numbers and false for others.
+
+
+
+Sample tests:
+
+Input:1892376
+Output:True
+
+Input:189237
+Output:False
+
+Input:18922314324324234423437
+Output:False
+
+Input:189223141324324234423437
+Output:True
+
+Input:1892231413243242344321432142343423437
+Output:True
+
+Input:0
+Output:True
+
+Time complexity: 
+#In LuckyNumber.py 
+The first and third approaches have a time complexity of O(log n).
+The second approach has a time complexity of O(1).
+
+First approach:
+The time complexity of this approach depends on the number of digits in the input number, which is proportional to the logarithm of the number itself (base 10).
