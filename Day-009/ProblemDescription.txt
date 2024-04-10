@@ -1,0 +1,30 @@
+DESCRIPTION:
+Simple, given a string of words, return the length of the shortest word(s).
+
+String will never be empty and you do not need to account for different data types.
+
+
+Sample tests:
+
+Input:bitcoin take over the world maybe who knows perhaps
+Output:3
+
+Input:turns out random test cases are easier than writing out basic ones
+Output:3
+
+Input:lets talk about javascript the best language
+Output:3
+
+Input:i want to travel the world writing code one day
+Output:1
+
+Input:Lets all go on holiday somewhere very cold
+Output:2
+
+Input:Let's travel abroad shall we
+Output:2
+
+
+Time Complexity:
+#In ShortestWord.py for all methods the time complexity should be O(n).
+->where n is the length of the input string s.
