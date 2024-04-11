@@ -14,10 +14,12 @@ print("============================================")
 list=['a',45,'abc',56,'string','int',234]
 print([i for i in list if not isinstance(i, str)])      #Time complexity:O(n)
 print("============================================")
+
 #using list comprehension with type() method
 list=[1,2,'aasf','1','123',123,'560','hi',520]
 print([x for x in list if type(x) == int])          #Time complexity:O(n)
 print("============================================")
+
 #By using for loop
 list=[1,2,'aasf','1','123',123]
 l=[]
