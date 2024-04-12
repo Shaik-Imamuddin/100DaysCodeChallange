@@ -1,0 +1,19 @@
+Description:
+
+->write a program that takes positive integer to calculate sum of its digits.
+
+Sample Tests
+
+
+Input:123
+output:6
+
+Input:223
+output:7
+
+Input:1337
+output:14
+
+Time Complexity:
+#In SumOfDigitsOfANumber.py 
+In all cases, the time complexity is linear i.e; O(n) with respect to the number of digits in the input number.
