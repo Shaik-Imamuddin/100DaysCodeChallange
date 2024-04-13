@@ -1,0 +1,27 @@
+Description
+->Write a program, which tells us if a given character is a letter or not.
+
+Sample Tests:
+
+Input:'a'
+Output:True
+
+Input:'A'
+Output:True
+
+Input:'#'
+Output:False
+
+Input:'5'
+Output:False
+
+Time Complexity:
+#In IsItALetter.py 
+Method-2:
+The in operator checks if a character is present in the string 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKKLZXCVBNM'. Since this string is fixed and small, the time complexity of the in operator is also O(1).
+
+Method-3:
+These methods check if the character is uppercase or lowercase, respectively. For a single character, these checks are simple and independent of the length of the input, resulting in a constant time complexity of O(1).
+
+
+The time complexityis O(1). for all methods when the input is a single character is constant.
