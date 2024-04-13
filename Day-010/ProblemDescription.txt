@@ -1,0 +1,19 @@
+Description:
+write a program that takes a list of non-negative integers and strings
+returns a new list with the strings filtered out.
+it has to return only integers.
+
+sample tests:
+
+input:[1,2,'a','b']
+Output:[1,2]
+
+input:[1,'a','b',0,15]
+output:[1,0,15]
+
+input:[1,2,'aasf','1','123',123]
+Output:[1,2,123]
+
+Time complexity:
+#In ListFiltering.py 
+All these approaches have linear time complexity O(n) because they require iterating over the entire input list once.
