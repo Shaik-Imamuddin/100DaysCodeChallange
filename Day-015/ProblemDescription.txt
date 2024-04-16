@@ -1,0 +1,20 @@
+Description:
+
+Write a program to print the planet name based on the given id.
+
+Sample Tests:
+
+Input:1
+Output:Mercury
+
+Input:4
+Output:Mars
+
+Input:3
+Output:Earth
+
+Input:8
+Output:Neptune
+
+Time complexity:
+in GetPlanetNameById.py the time complexity is O(1) for all methods .it will takes the constant Time for fetching the index element bsaed on the given id.
