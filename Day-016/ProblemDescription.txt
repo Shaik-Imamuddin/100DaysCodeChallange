@@ -1,0 +1,27 @@
+Description:
+Replace all vowel to exclamation mark in the sentence. 
+
+->aeiouAEIOU is vowel.
+
+Sample Tests:
+
+Input:"Hi!"
+Output:"H!!"
+
+Input:"!Hi! Hi!" 
+Output:"!H!! H!!"
+
+Input:"aeiou"
+Output:"!!!!!"
+
+Input:"ABCDE"
+Output:"!BCD!"
+
+
+Time Complexity:
+
+In ReplaceVowelsWith!.py The complexity should be
+
+->The replace method itself iterates over the entire string, resulting in O(n^2) time complexity.
+
+-> Apart from that all methods will be having O(n) time complexity.
