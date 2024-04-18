@@ -1,0 +1,24 @@
+Description:
+The cockroach is one of the fastest insects.
+write a program which takes its speed in km per hour
+and returns it in cm per second, rounded down to the integer (= floored).
+
+Sample Tests:
+
+Input:1.08
+Output:30
+
+Input:50
+Output:1388
+
+Input:0
+Output:0
+
+Input:10
+Output:277
+
+
+Time complexity:
+
+In KMperHourToCMperSecond.py The time complexity for all the above methods is 
+O(1), which means they all have constant time complexity regardless of the input size.
