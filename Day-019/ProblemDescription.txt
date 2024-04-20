@@ -1,0 +1,28 @@
+Description:
+
+given a string, replace every letter with its position in the alphabet.
+If anything in the text isn't a letter, ignore it and don't return it.
+"a" = 1, "b" = 2, etc.
+
+sample tests:
+
+Input:hello
+Output:8 5 12 12 15
+
+Input:The sunset sets at twelve o' clock.
+Output:20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11
+
+Input:codewars
+Output:3 15 4 5 23 1 18 19
+
+Note: The output should return as a string each charecter along with space except last charecter.
+
+
+Time complexity:
+In ReplaceNumberWithAlphabetPosition.py
+All three methods have a time complexity of O(n), where n is the length of the input text.
+
+
+
+
+
