@@ -1,0 +1,32 @@
+AreTheNumbersInOrder
+
+Description:
+Your task is to determine whether the numbers are in ascending order. An array is said to be in ascending order if there are no two adjacent integers where the left integer exceeds the right integer in value.
+
+->you may assume that all inputs are valid, i.e. arrays containing only integers.
+
+
+Sample tests:
+
+Input:5
+[1,2,4,7,19]
+Output:True
+
+Input:5
+[1,2,3,4,5]
+Output:True
+
+Input:7
+[1,6,10,18,2,4,20]
+Output:False
+
+Input:9
+[9,8,7,6,5,4,3,2,1]
+Output:False
+
+Time complexity:
+In  AreTheNumbersInOrder.py
+
+The first two methods have a time complexity of O(nlogn) due to the sorting operation
+
+The third method has a linear time complexity of O(n) because it only iterates over the array once
