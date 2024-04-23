@@ -1,0 +1,25 @@
+Description:
+Your task is to Write a program that can take any non-negative integer as input and print it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
+
+Sample Tests:
+
+Input: 42145 
+Output: 54421
+
+Input: 145263 
+Output: 654321
+
+Input:54321
+Output:54321
+
+Input: 123456789 
+Output: 987654321
+
+Time Complexity:
+In DesendingOrder.py
+
+Linearithemic Time
+
+all methods will take the time complexity of O(n log n), which means they execute in Linearithemic Time.
+
+The time complexity is dominated by the sorting operation, which has a time complexity of O(nlogn), where n is the number of digits in the input number.
