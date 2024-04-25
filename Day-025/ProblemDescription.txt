@@ -1,0 +1,25 @@
+DESCRIPTION:
+Numbers ending with zeros are boring.
+
+They might be fun in your world, but not here.
+
+Get rid of them. Only the ending ones.
+
+sample Tests:
+
+Input:1450
+Output:145
+
+Input:960000
+Output:96
+
+Input:1050
+output:105
+
+Input:-1050
+Output:-105
+
+Time Complexity:
+In  NoZerosForHeros.py
+The time complexity depends on the number of trailing zeros in n.
+So it will take Linear Time O(n).
