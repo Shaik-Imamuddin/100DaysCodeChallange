@@ -1,0 +1,32 @@
+Description:
+
+Write a program that takes a list of strings as input and returns a filtered list containing the same elements but with the 'geese' removed.
+
+The geese are any strings in the following array, which is pre-populated in your solution:
+
+["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+
+sample tests:
+
+For example, if this array were given as input:
+
+["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]
+
+Your program would return the following array:
+
+["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
+
+Input:
+["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]
+Output:
+['Mallard', 'Hook Bill', 'Crested', 'Blue Swedish']
+
+Input:
+["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+Output:
+[]
+The elements in the returned array should be in the same order as in the initial array passed to your program with the 'geese' removed. Note that all of the strings will be in the same case as those provided, and some elements may be repeated.
+
+Time Complexity:
+in  it will iterates over each element in geese and birds lists and removes elements from the birds 
+Therefore The Time Complexity O(n^2)
