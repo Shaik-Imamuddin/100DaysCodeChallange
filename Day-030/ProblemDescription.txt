@@ -1,0 +1,55 @@
+Description:
+
+A variation of determining leap years, assuming only integers are used and years can be negative and positive.
+
+Write a program which will print the days in the year and the year entered in a string. For example:
+
+year_days(2000) returns "2000 has 366 days"
+There are a few assumptions we will accept the year 0, even though there is no year 0 in the Gregorian Calendar.
+
+Also the basic rule for validating a leap year are as follows
+
+Most years that can be divided evenly by 4 are leap years.
+
+Exception: Century years are NOT leap years UNLESS they can be evenly divided by 400.
+
+So the years 0, -64 and 2016 will return 366 days. Whilst 1974, -10 and 666 will return 365 days.
+
+
+Sample Tests:
+
+Input:0 
+Output:'0 has 366 days'
+
+Input:-64 
+Output:'-64 has 366 days'
+
+Input:2016 
+Output:'2016 has 366 days'
+
+Input:1974 
+Output:'1974 has 365 days'
+
+Input:-10 
+Output:'-10 has 365 days'
+
+Input:666 
+Output:'666 has 365 days'
+
+Input:1857 
+Output:'1857 has 365 days'
+
+Input:2000 
+Output:'2000 has 366 days'
+
+Input:-300 
+Output:'-300 has 365 days'
+
+Input:-1 
+Output:'-1 has 365 days'
+
+Time complexity:
+
+In  DaysInTheYear.py
+
+All three methods have a time complexity of O(1), indicating that their execution time is constant and does not depend on the input size.
