@@ -1,0 +1,47 @@
+Description:
+Sum all the numbers of a given array ( cq. list ), except the highest and the lowest element ( by value, not by index! ).
+
+The highest or lowest element respectively is a single element at each edge, even if there are more than one with the same value.
+
+Mind the input validation.
+
+Sample test:
+
+Input:5
+2
+5
+3
+6
+4
+Output:[2, 5, 3, 6, 4]
+12
+
+Input:2
+34
+32
+Output:[32, 34]
+0
+
+Input:4
+54
+32
+76
+12
+Output:[12, 32, 54, 76]
+86
+
+Time Complexity:
+In SumWithoutHighestAndLowestNumber.py
+
+->method-1:
+This code involves sorting the list using the sorted() method, which has a time complexity of O(nlogn).
+
+->method-2:
+This code first constructs the list l by taking input from the user, which takes linear time O(n).
+It then calculates the sum, maximum, and minimum of the list, all of which take linear time O(n).
+The overall time complexity of this method is O(n).
+
+->Method-3:
+This code first constructs the list l by taking input from the user, which takes linear time O(n).
+It then calculates the sum, maximum, and minimum of the list, all of which take linear time O(n).
+The overall time complexity of this method is O(n).
