@@ -1,0 +1,39 @@
+Your task is to write a program that receive a list of integers as input, and return the Minimum and Maximum number in that list, respectively.
+
+Sample Tests:
+
+TestCase-1:
+Input:4
+23
+12
+-2
+12
+Output:-2 23
+
+TestCase-2:
+Input:9
+4
+6
+2
+1
+9
+63
+-134
+566
+12
+Output:-134 566
+
+TestCase-3:
+Input:1
+5
+Output:5 5
+
+Time Complexity:
+
+In FindMinAndMaxValueOfAList.py
+
+->Method 1 has a time complexity of O(nlogn) due to sorting, 
+
+->while Methods 2 and 3 have time complexities of O(n) as they iterate through the list once to find the minimum and maximum values. 
+
+->Methods 2 and 3 are more efficient for finding the minimum and maximum values of a list.
