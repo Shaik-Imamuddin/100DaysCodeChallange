@@ -1,0 +1,47 @@
+Description:
+
+FindMultiplesOfANumber
+
+In this simple exercise, you will build a program that takes a value, integer , and returns a list of its multiples up to another value, limit . If limit is a multiple of integer, it should be included as well. The input will only positive integers , not consisting of 0. The limit will always be higher than the base.
+
+
+if my input 2 and 6 then The program will print [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
+
+Sample Tests:
+Input:10
+100
+Output:[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+Input:3
+9
+Output:[3, 6, 9]
+
+
+Input:2
+12
+Output:[2, 4, 6, 8, 10, 12]
+
+
+Input:5
+25
+Output:[5, 10, 15, 20, 25]
+
+
+Input:9
+81
+Output:[9, 18, 27, 36, 45, 54, 63, 72, 81]
+
+
+
+Input:7
+77
+Output:[7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77]
+
+
+Time Complexity:
+
+In FindMultiplesOfANumber.py
+
+The Time Complexity for all methods is O(n) results the linear Time Complexity.
+it should having in the range of one value to another value.the difference will be based on the inputs
+so the time complexity should be linear.
