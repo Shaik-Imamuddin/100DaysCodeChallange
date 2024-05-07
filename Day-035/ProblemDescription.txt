@@ -1,0 +1,51 @@
+DESCRIPTION:
+
+It's the academic year's end, fateful moment of your school report. The averages must be calculated. All the students come to you and entreat you to calculate their average for them. Easy ! You just need to write a script.
+
+print the average of the given array rounded down to its nearest integer.
+
+The array will never be empty.
+
+Sample Test:
+
+TestCase-1:
+Input:4
+2
+2
+2
+2
+Output:[2, 2, 2, 2]
+2
+
+TestCase-2:
+Input:6
+1
+5
+87
+45
+8
+8
+Output:[1, 5, 87, 45, 8, 8]
+25
+
+TestCase-3:11
+2
+5
+13
+20
+16
+16
+10
+45
+24
+45
+34
+Output:[2, 5, 13, 20, 16, 16, 10, 45, 24, 45, 34]
+20
+
+
+Time complexity:
+
+In  FindTheMeanOfTheArray.py
+
+All three methods have a time complexity of O(n) because they involve iterating through the array once to calculate the sum of its elements.
