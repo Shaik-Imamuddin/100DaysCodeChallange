@@ -1,0 +1,24 @@
+DESCRIPTION:
+Write a program that removes the spaces from the string, then print the resultant string.
+
+Sample Tests:
+
+TestCase-1:
+Input:"8 j 8   mBliB8g  imjB8B8  jl  B"
+Output:"8j8mBliB8gimjB8B8jlB"
+
+TestCase-2:
+Input:"8 8 Bi fk8h B 8 BB8B B B  B888 c hl8 BhB fd"
+Output:"88Bifk8hB8BB8BBBB888chl8BhBfd"
+
+TestCase-3:
+Input:"8aaaaa dddd r     " 
+Output:"8aaaaaddddr"
+
+
+
+Time Complexity:
+
+In RemoveStringSpaces.py
+
+all methods have a time complexity of O(n), where n is the length of the input string.
