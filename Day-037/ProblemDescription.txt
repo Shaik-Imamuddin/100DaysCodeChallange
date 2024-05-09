@@ -1,0 +1,45 @@
+ProblemDescription
+
+Write a program which takes two arguments and returns all numbers which are divisible by the given divisor. 
+
+Sample Tests:
+
+Testcase-1:
+Input:Enter Array Length:5
+60
+66
+45
+23
+41
+Output:[60, 66, 45, 23, 41]
+
+TestCase-2:
+Input:Enter the Divisor:5
+[60, 45]
+Enter Array Length:3
+12
+24
+36
+[12, 24, 36]
+Enter the Divisor:12
+Output:[12, 24, 36]
+
+TestCase-3:
+Input:Enter Array Length:6
+7
+89
+34
+5
+12
+76
+[7, 89, 34, 5, 12, 76]
+Enter the Divisor:3
+Output:[12]
+
+Time Complexity:
+
+In NumbersWhichAreDivisibleByGivenNumberInAnArray.py
+
+Both methods have a time complexity of O(n), where n is the length of the input list.
+This is because they both iterate through each element of the input list once to perform the required operations.
+
