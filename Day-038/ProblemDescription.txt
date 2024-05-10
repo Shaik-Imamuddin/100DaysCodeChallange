@@ -1,0 +1,36 @@
+#sum the strings
+
+Description:
+
+Write a program,that takes 2 integers in form of a string as an input,
+and outputs the sum (also as a string):
+
+sample tests:
+Test case-1:
+Input:"4"
+"5"
+Output:"9"
+
+Test case-2:
+Input:"34"
+"5"
+Output:"39"
+
+Test case-3:
+Input:""
+""
+Output:"0"
+
+Test case-4:
+Input:"2"
+""
+Output:"2"
+
+Test case-5:
+Input:"-5"
+"3"
+Output:"-2"
+
+Time complexity:
+in SumOfStrings.py the time complexity should be O(n) for all the methods.
+where n is the length of the string.
