@@ -1,0 +1,42 @@
+DESCRIPTION:
+
+This problem is about converting numbers to their binary or hexadecimal representation:
+
+If a number is even, convert it to binary.
+If a number is odd, convert it to hex.
+
+Numbers will be positive. The hexadecimal string should be lowercased.
+
+
+Sample Tests:
+
+Testcase-1:
+input:2
+output:10
+
+Testcase-2:
+input:13
+output:d
+
+Testcase-3:
+input:12800
+Output:11001000000000
+
+Testcase-4:
+input:8172381723
+Output:1e71ca61b
+
+Testcase-5:
+input:0
+output:0
+
+Time complexity:
+
+In BinEvenHexOdd.py
+
+In summary, the time complexity varies among the approaches:
+
+The first and second approaches have a time complexity of O(log n).
+The third approach has a time complexity of O(1).
+The fourth approach also has a time complexity of O(1).
+
