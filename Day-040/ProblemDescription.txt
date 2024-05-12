@@ -1,0 +1,31 @@
+Description:
+
+Given a number N, can you fabricate the two numbers NE and NO 
+such that NE is formed by even digits of N and NO is formed by odd digits of N? 
+
+Examples:
+
+input	NE	NO
+126453	264	153
+3012	2	31
+4628	4628	0
+
+0 is considered as an even number.
+
+Sample Tests: 
+input:123456
+output:(246, 135)
+
+Testcase-2:
+Input:324986
+Output:(2486, 39)
+
+Testcase-3:
+Input:4268
+Output:(4268, 0)
+
+Time complexity:
+In EvenAsNEOddAsNoInN.py
+
+all of the provided approaches have a time complexity of O(n),
+where n is the number of digits in the input number.
