@@ -1,0 +1,50 @@
+#DoubleEveryOther
+
+Write a program that doubles every second integer in a list,
+starting from the left.
+
+Example:
+
+For input array/list :
+
+[1,2,3,4]
+
+the program should print :
+
+[1,4,3,8]
+
+Sample Tests:
+Testcase-1:
+Input:5
+4
+2
+6
+8
+9
+[4, 2, 6, 8, 9]
+[4, 4, 6, 16, 9]
+
+Testcase-2:5
+7
+9
+2
+4
+1
+[7, 9, 2, 4, 1]
+[7, 18, 2, 8, 1]
+
+Testcase-3:5
+34
+78
+56
+12
+45
+[34, 78, 56, 12, 45]
+[34, 156, 56, 24, 45]
+
+Time Complexity:
+
+In DoubleEveryOther.py
+
+all of the provided approaches have a time complexity of O(n), 
+where n is the number of elements in the input list.
