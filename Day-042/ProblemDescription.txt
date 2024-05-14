@@ -1,0 +1,37 @@
+#Mumbling
+
+DESCRIPTION:
+This time no story, no theory. The examples below show you how to write program accum:
+
+Examples:
+"abcd" -> "A-Bb-Ccc-Dddd"
+"RqaEzty" -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+"cwAt" -> "C-Ww-Aaa-Tttt"
+
+The input is a string which includes only letters from a..z and A..Z.
+
+Sample Tests:
+
+Testcase-1:
+input:abcdef
+output:A-Bb-Ccc-Dddd-Eeeee-Ffffff
+
+TestCase-2:
+input:this
+Output:T-Hh-Iii-Ssss
+
+Testcase-3:
+input:Happy
+output:H-Aa-Ppp-Pppp-Yyyyy
+
+Testcase-4:
+input:are you
+output:A-Rr-Eee-    -Yyyyy-Oooooo-Uuuuuuu
+
+Time Complexity:
+
+while the first and second approaches have a quadratic time complexity of O(n^2).
+
+The third and fourth approaches have a linear time complexity of O(n), 
+
+where n is the length of the input string.
