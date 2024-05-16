@@ -1,0 +1,44 @@
+#LengthOfTwoValues
+
+Given an integer n and two other values, build an array of size n filled with these two values alternating.
+
+Examples:
+
+5, true, false     -->  [true, false, true, false, true]
+10, "blue", "red"  -->  ["blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red"]
+0, "one", "two"    -->  []
+
+Good luck!
+
+Testcase-1:
+
+input:5
+apple
+ball
+Output:['apple', 'ball', 'apple', 'ball', 'apple']
+
+
+Testcase-2:
+
+input:7
+one
+two
+output:['one', 'two', 'one', 'two', 'one', 'two', 'one']
+
+Testcase-3:
+input:6
+a
+an
+output:['a', 'an', 'a', 'an', 'a', 'an']
+
+Testcase-4:
+input:8
+for
+while
+Output:['for', 'while', 'for', 'while', 'for', 'while', 'for', 'while']
+
+
+Time Complexity:
+In LengthAndTwoValues.py
+ 
+all of the provided approaches have a time complexity of O(n), where n is the length of the list.
