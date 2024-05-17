@@ -1,0 +1,48 @@
+DESCRIPTION:
+In this kata, your job is to print the two distinct highest values in a list. 
+If there're less than 2 unique values, return as many of them, as possible.
+
+The result should also be ordered from highest to lowest.
+
+Examples:
+
+[4, 10, 10, 9]  =>  [10, 9]
+[1, 1, 1]  =>  [1]
+[]  =>  []
+
+Testcase-1:
+Input:5
+34
+56
+34
+67
+56
+Output:[34, 56, 34, 67, 56]
+[67, 56]
+
+
+Testcase-2:
+input:5
+12
+34
+56
+78
+56
+Output:[12, 34, 56, 78, 56]
+[78, 56]
+
+Testcase-3:
+Input:5
+89
+90
+90
+89
+67
+Output:[89, 90, 90, 89, 67]
+[90, 89]
+
+Time Complexity:
+In ReturnTwoHighestValuesInAList.py
+
+time complexity for all three approaches is O(n log n). This complexity arises 
+due to the sorting operation involved in finding the two highest elements in the list.
