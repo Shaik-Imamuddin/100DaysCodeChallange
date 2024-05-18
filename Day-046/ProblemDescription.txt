@@ -1,0 +1,31 @@
+ProblemDescription
+
+Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number.
+
+For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.
+
+Constraint:
+
+1 <= month <= 12
+
+
+Sample Tests:
+
+Test case-1:
+Input:2
+Output:1
+
+Test case-2:
+Input:8
+Output:3
+
+Test case-3:
+Input:10
+Output:4
+
+Time Complexity:
+
+in QuarterOfTheYear.py
+
+All of the provided approaches have a time complexity of O(1), 
+as they perform a constant number of operations regardless of the input size.
