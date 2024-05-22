@@ -1,0 +1,41 @@
+ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
+
+If the input is passed a valid PIN string, print true, else print false.
+
+Examples (Input --> Output)
+
+"1234"   -->  true
+"12345"  -->  false
+"a234"   -->  false
+
+Sample Tests:
+
+Input:1
+Output:False
+
+
+Input:123
+Output:False
+
+
+Input:a234
+Output:False
+
+
+Input:.453
+Output:False
+
+
+Input:0000
+Output:True
+
+
+Input:098765
+Output:True
+
+
+Time Complexity:
+In ValidateThePin.py
+
+all of the provided approaches have a time complexity of O(n),
+where n is the length of the input string pin.
