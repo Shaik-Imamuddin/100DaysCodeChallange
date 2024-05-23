@@ -1,0 +1,43 @@
+Problem Description
+
+Write a program to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+
+Examples
+"hello"     -->  "hll"
+"codewars"  -->  "cdwrs"
+"goodbye"   -->  "gdby"
+"HELLO"     -->  "HELLO"
+
+don't worry about uppercase vowels.
+
+Sample Tests:
+
+Test case-1:
+Input:welcome
+Output:wlcm
+
+Test case-2:
+Input:Happy
+Output:Hppy
+
+Test case-3:
+Input:CodingTime
+Output:CdngTm
+
+Test case-4:
+Input:Coffee
+Output:Cff
+
+
+Time Complexity:
+
+In VowelRemover.py
+
+the time complexities for the provided approaches are as follows:
+
+Using replace() in a loop over a fixed list of vowels: O(n)
+Using replace() inside a loop over the string: O(n^2)
+Using a generator expression with join(): O(n)
+Using a loop with string concatenation: O(n^2)
+
+The most efficient methods are the first and third approaches, both with a time complexity of O(n).
