@@ -1,0 +1,50 @@
+DESCRIPTION:
+Clock shows h hours, m minutes and s seconds after midnight.
+
+Your task is to write a function which returns the time since midnight in milliseconds.
+
+Example:
+h = 0
+m = 1
+s = 1
+
+result = 61000
+
+Input constraints:
+
+0 <= h <= 23
+0 <= m <= 59
+0 <= s <= 59
+
+Sample Tests:
+
+Test case-1:
+Input:1
+2
+3
+Output:3723000
+
+Test Case-2:
+Input:0
+34
+12
+Output:2052000
+
+Test case-3:
+Input:0
+23
+12
+Output:1392000
+
+Test case-4:
+Input:0
+11
+1
+Output:661000
+
+
+Time Complexity:
+In 
+Both approaches have the same time complexity, O(1), 
+because they involve a constant number of arithmetic operations and input readings, 
+regardless of the actual values provided.
