@@ -1,0 +1,37 @@
+DESCRIPTION:
+
+After a hard quarter in the office you decide to get some rest on a vacation. 
+So you will book a flight for you and your girlfriend and try to leave all the mess behind you.
+
+You will need a rental car in order for you to get around in your vacation. 
+The manager of the car rental makes you some good offers.
+
+Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. 
+Alternatively, if you rent the car for 3 or more days, you get $20 off your total.
+
+Write a code that gives out the total amount for different days(d).
+
+
+Test case-1:
+Input:1
+Output:40
+
+Test case-2:
+Input:4
+Output:140
+
+Test case-3:
+Input:7
+Output:230
+
+Test case-4:
+Input:8
+Output:270
+
+
+Time Complexity:
+
+In TransportationOnVacation.py
+
+Both approaches have the same time complexity, O(1), 
+because they involve a constant number of arithmetic operations, comparisons, and input reading, regardless of the value of d.
