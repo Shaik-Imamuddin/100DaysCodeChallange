@@ -1,0 +1,40 @@
+Problem Description
+
+Americans are odd people: in their buildings, the first floor is actually the ground floor and there is no 13th floor (due to superstition).
+
+Write a program that given a floor in the american system returns the floor in the european system.
+
+With the 1st floor being replaced by the ground floor and the 13th floor being removed,
+the numbers move down to take their place. In case of above 13, they move down by two because there are two omitted numbers below them.
+
+Basements (negatives) stay the same as the universal level.
+
+Sample Tests:
+
+Test Case-1:
+Input:1
+Output:0
+
+Test Case-2:
+Input:0
+Output:0
+
+Test Case-3:
+Input:5
+Output:4
+
+Test Case-4:
+Input:15
+Output:13
+
+Test Case-5:
+Input:-3
+Output:-3
+
+Time Complexity:
+
+In TheRealFloor.py
+
+All approaches have the same time complexity, O(1)
+because they involve a constant number of operations,
+regardless of the value of n.
