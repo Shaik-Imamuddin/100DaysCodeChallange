@@ -1,0 +1,45 @@
+Problem Description:
+
+Finish the solution so that it sorts the passed in array of numbers.
+If the function passes in an empty array or null/nil value then it should return an empty array.
+
+For example:
+
+[1,2,3,10,5] # should print [1,2,3,5,10]
+None # should print []
+TestCase-1:
+Input:5
+34
+78
+90
+34
+67
+Output:[34, 78, 90, 34, 67]
+[34, 34, 67, 78, 90]
+
+TestCase-2:
+Input:6
+23
+45
+67
+9
+09
+223
+Output:[23, 45, 67, 9, 9, 223]
+[9, 9, 23, 45, 67, 223]
+
+TestCase-3:
+Input:0
+Output:[]
+[]
+
+
+Time Complexity:
+
+In SortNumbers.py
+
+->The first three approaches have a time complexity of O(n log n), 
+which is efficient for sorting. 
+
+->The fourth approach has a time complexity of O(n^2) due to the nested use of min and remove functions, 
+making it less efficient for larger lists.
