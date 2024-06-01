@@ -1,0 +1,38 @@
+Description:
+
+Nathan loves cycling.
+
+Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
+
+You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
+
+For example:
+
+time = 3 ----> litres = 1
+
+time = 6.7---> litres = 3
+
+time = 11.8--> litres = 5
+
+Sample Tests:
+
+Testcase-1:
+Input:10
+Output:5
+
+Input:11
+Output:5
+
+Input:59
+Output:29
+
+Input:87
+Output:43
+
+Time Complexity:
+
+In KeepHydrated.py
+
+Both approaches involve operations that are constant time, i.e.,
+they do not depend on the size of the input.
+Therefore, the time complexity for both approaches is O(1).
