@@ -1,0 +1,56 @@
+DESCRIPTION:
+
+Oh no!
+Some really funny web dev gave you a sequence of numbers from his API response as an sequence of strings!
+
+You need to cast the whole array to the correct type.
+
+Write a program that takes input as a sequence of numbers represented as strings and outputs as a sequence of numbers.
+
+ie:["1", "2", "3"] to [1, 2, 3]
+
+Note that you can receive floats as well.
+
+Sample Tests:
+
+Testcase-1:
+Input:5
+56
+34
+67
+45
+45
+Output:['56', '34', '67', '45', '45']
+[56, 34, 67, 45, 45]
+
+Testcase-2:
+Input:3
+56
+324
+6
+Output:['56', '324', '6']
+[56, 324, 6]
+
+Testcase-3:
+Input:1
+34
+Output:['34']
+[34]
+
+Testcase-4:
+Input:6
+78
+90
+00
+56
+34
+7
+Output:['78', '90', '00', '56', '34', '7']
+[78, 90, 0, 56, 34, 7]
+
+Time Complexity:
+
+In ConvertArrayOfStringsToArrayOfNumbers.py
+
+->All approaches have a time complexity of O(n),
+where n is the number of elements in the list.
