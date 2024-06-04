@@ -1,0 +1,33 @@
+Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each. 
+If one of the flowers has an even number of petals and the other has an odd number of petals it means they are in love.
+
+Write a program that will take the number of petals of each flower and print true if they are in love and false if they aren't.
+
+Sample Tests:
+
+Testcase-1:
+Input:45
+57
+Output:False
+
+Testcase-2:
+Input:12
+13
+Output:True
+
+Testcase-3:
+Input:677
+454
+Output:True
+
+Testcase-4:
+Input:12
+34
+Output:False
+
+
+Time Complexity:
+
+In OppositesAttract.py
+
+All three approaches having a time complexity of O(1).
