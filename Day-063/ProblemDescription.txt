@@ -1,0 +1,38 @@
+DESCRIPTION:
+
+You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
+If it is a square, return its area. If it is a rectangle, return its perimeter.
+
+
+Example(Input1, Input2 --> Output):
+
+6, 10 --> 32
+3, 3 --> 9
+
+Note: for the purposes of this kata you will assume that it is a square if its length and width are equal, otherwise it is a rectangle.
+
+Sample Tests:
+
+Testcase-1:
+Input:3
+3
+Output:9
+
+Input:5
+8
+Output:26
+
+Input:-1
+0
+Output:-2
+
+Input:-55
+55
+Output:0
+
+Time Complexity:
+
+In AreaOfParameter.py
+
+All three approaches correctly calculate either the area or the perimeter based on the given conditions,
+with each approach having a time complexity of O(1).
