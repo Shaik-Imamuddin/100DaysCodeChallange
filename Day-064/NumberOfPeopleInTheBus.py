@@ -16,7 +16,7 @@ bus_stops=[[3,0],[9,1],[4,8],[12,2],[6,1],[7,8]]
 print(sum([i[0]-i[1] for i in bus_stops]))      #Time Complexity:O(n)
 
 
-#By using 2 for loops along with
+#By using 2 for loops along with 2 variables(enter,exit)
 bus_stops=[[3,2],[5,1],[15,5],[12,6],[6,8],[17,10]]
 enter,exit=0,0
 for i in bus_stops:
