@@ -1,0 +1,35 @@
+DESCRIPTION:
+
+Combine strings program
+
+write a program named (combine_names) that accepts two inputs (first and last name). The program should print the full name.
+
+Example:
+'James', 'Stevens'
+
+returns:
+'James Stevens'
+
+Sample Tests:
+
+Testcase-1:
+Input:hello 
+how are you
+Output:hello how are you
+
+Testcase-2:
+Input:am
+i
+Output:am i
+
+Testcase-3:
+Input:happi
+bday
+Output:happi bday
+
+Time Complexity:
+
+In CombineStrings.py
+
+All approaches have a time complexity of O(n),
+where n is the total length of the combined strings. 
