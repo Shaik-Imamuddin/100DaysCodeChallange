@@ -1,0 +1,67 @@
+DESCRIPTION:
+
+Story
+Ben has a very simple idea to make some profit: he buys something and sells it again. 
+Of course, this wouldn't give him any profit at all if he was simply to buy and sell it at the same price. 
+Instead, he's going to buy it for the lowest possible price and sell it at the highest.
+
+Task
+Write a program that prints both the minimum and maximum number of the given list/array.
+
+Sample Tests:
+
+Testcase-1:
+Input:5
+34
+56
+45
+56
+45
+Output:[34, 56, 45, 56, 45]
+[34, 56]
+
+Testcase-2:
+Input:5
+89
+90
+56
+67
+23
+Output:[89, 90, 56, 67, 23]
+[23, 90]
+
+Testcase-3:
+Input:4
+56
+78
+89
+89
+Output:[56, 78, 89, 89]
+(56, 89)
+
+
+Remarks:
+All arrays or lists will always have at least one element, 
+so you don't need to check the length. Also, your function will always get an array or a list,
+you don't have to check for null, undefined or similar.
+
+Time Complexity:
+
+In TheHighestPowerWins.py
+
+By using Conditional Statements Method
+
+Time Complexity: O(n)
+Explanation: The loop iterates through each element of the list once to find the minimum and maximum values.
+List Indexing with Sorting
+
+By using list indexing and sort() method
+
+Time Complexity: O(n log n)
+Explanation: The sort() method has a time complexity of O(n log n). Accessing the first and last elements of the list is O(1).
+Using min() and max() Functions
+
+By using min() and max() functions
+
+Time Complexity: O(n)
+Explanation: Both min() and max() functions iterate through the list once to find the respective values.
