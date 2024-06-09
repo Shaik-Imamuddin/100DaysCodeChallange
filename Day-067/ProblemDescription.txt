@@ -1,0 +1,40 @@
+DESCRIPTION:
+
+Write a Program that checks if a given string (case insensitive) is a palindrome.
+
+A palindrome is a word, number, phrase,
+or other sequence of symbols that reads the same backwards as forwards,
+such as madam or racecar.
+
+Sample Tests:
+
+Testcase-1:
+Input:happy
+Output:False
+
+Testcase-2:
+Input:oyo
+OutputTrue
+
+Testcase-3:
+Input:today
+Output:False
+
+Testcase-4:
+Input:madam
+Output:True
+
+Testcase-5:
+Input:therefore
+Output:False
+
+Time Complexity:
+
+In IsItAPalindrome.py
+
+Using join() Method: O(n)
+Using Conditional Statements with upper() Method: O(n)
+Using Conditional Statements with lower() Method: O(n)
+
+All methods have the same time complexity of O(n), 
+where n is the length of the string.
