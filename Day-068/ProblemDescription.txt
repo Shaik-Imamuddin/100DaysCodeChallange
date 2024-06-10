@@ -1,0 +1,26 @@
+Description:
+Write a program which removes all exclamation marks from a given string.
+
+Sample Tests:
+
+Testcase-1:
+Input:abd@!!lkEkh!!@kjwnqkwjnk!!!
+output:abd@lkEkh@kjwnqkwjnk
+
+Testcase-2:
+Input:wek1!!!KKJDJIJ!I!UDJ!J!D!!D
+output:wek1KKJDJIJIUDJJDD
+
+Testcase-3:
+Input:fskdjkjnk!!!KJBS!J!H@J!!J@J!!
+output:fskdjkjnkKJBSJH@JJ@J
+
+Testcase-4:
+Input:kdwjnsk@KKK!K!K!K!!
+output:kdwjnsk@KKKKKK
+
+Time Complexity:
+In RemoveExclamationMarks.py
+
+All methods have the same time complexity of O(n),
+where n is the length of the string
