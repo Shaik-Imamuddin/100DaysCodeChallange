@@ -1,0 +1,36 @@
+write a program that takes two integers (a, b, where a < b) 
+and prints an array of all integers between the inputs, including them.
+
+For example:
+
+a = 1
+b = 4
+--> [1, 2, 3, 4]
+
+sample Tests:
+
+Testcase-1
+Input:12
+19
+Output:[12, 13, 14, 15, 16, 17, 18, 19]
+
+Testcase-2
+Input:45
+49
+Output:[45, 46, 47, 48, 49]
+
+Testcase-3
+Input:234
+241
+Output:[234, 235, 236, 237, 238, 239, 240, 241]
+
+Testcase-4
+Input:1213
+1220
+Output:[1213, 1214, 1215, 1216, 1217, 1218, 1219, 1220]
+
+Time Complexity:
+In  WhatIsBetween.py
+
+All three methods have a time complexity of O(n), where n = b - a + 1. 
+This means the time complexity is linear with respect to the number of elements in the resulting list.
