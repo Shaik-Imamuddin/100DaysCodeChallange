@@ -1,0 +1,47 @@
+Description:
+
+You were camping with your friends far away from home, but when it's time to go back,
+you realize that your fuel is running out and the nearest pump is 50 miles away! You know that on average,
+your car runs on about 25 miles per gallon. There are 2 gallons left.
+
+Considering these factors, write a program that tells you if it is possible to get to the pump or not.
+
+program should print true if it is possible and false if not.
+
+Sample Tests:
+
+Testcase-1:
+Input:45
+6
+9
+Output:True
+
+Testcase-2:
+Input:90
+8
+9
+Output:False
+
+Testcase-3:
+Input:150
+14
+17
+Output:True
+
+Testcase-4:
+Input:25
+0
+1
+Output:False
+
+Time Complexity:
+
+In WillYouMakeIt.py
+
+All methods provided have a constant time complexity, O(1),
+since they only involve a fixed number of operations regardless of the input values.
+
+
+
+
+
