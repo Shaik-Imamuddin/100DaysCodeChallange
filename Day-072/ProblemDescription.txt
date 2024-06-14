@@ -1,0 +1,50 @@
+DESCRIPTION:
+Your task is to write a program that does four basic mathematical operations.
+
+The program take three  inputs-operation(string/char), value1(number), value2(number).
+
+The program should return result of numbers after applying the chosen operation.
+
+Examples(Operator, value1, value2) --> output
+('+', 4, 7) --> 11
+('-', 15, 18) --> -3
+('*', 5, 5) --> 25
+('/', 49, 7) --> 7
+
+Sample Tests:
+Testcase-1:
+Input:45
+45
++
+Output:90
+
+Testcase-2:
+Input:56
+6
+*
+Output:336
+
+Testcase-3:
+Input:2345
+123
+-
+Output:2222
+
+Testcase-4:
+Input:67895
+5
+/
+Output:13579.0
+
+Testcase-5:
+Input:2345
+564
++
+Output:2909
+
+Time Complexity:
+
+In BasicMathematicalOperations.py
+
+all implementations have a time complexity of O(1),
+meaning that their performance remains constant regardless of the input size.
