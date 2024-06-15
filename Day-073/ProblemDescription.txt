@@ -1,0 +1,87 @@
+Problem Description:
+Write a program that prints the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
+
+For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
+
+[10, 343445353, 3453445, 3453545353453] should return 3453455.
+
+sample Tests:
+
+Testcase-1:
+Input:5
+67
+34
+12
+1
+23
+Output:[67, 34, 12, 1, 23]
+13
+
+Testcase-2:
+Input:4
+56
+78
+89
+90
+Output:[56, 78, 89, 90]
+134
+
+Testcase-3:
+Input:6
+12
+23
+34
+45
+56
+67
+Output:[12, 23, 34, 45, 56, 67]
+35
+
+
+Testcase-4:
+Input:8
+233
+422
+123
+456
+789
+980
+786
+345
+Output:[233, 422, 123, 456, 789, 980, 786, 345]
+356
+
+Testcase-5:
+Input:7
+87
+76
+75
+23
+126
+892
+450
+Output:[87, 76, 75, 23, 126, 892, 450]
+98
+
+Testcase-6:
+Input:3
+122
+453
+675
+Output:[122, 453, 675]
+575
+
+Time Complexity:
+->Using sorted() method along with indexing:
+The total time complexity is O(n log n).
+
+->Using sort() method along with indexing:
+The total time complexity is O(n log n).
+
+->Using sum() and sorted() methods along with slicing:
+The total time complexity is O(n log n).
+
+->Using min() and max() functions:
+The total time complexity is O(n).
+
+So, the most efficient implementation is the one that uses min() and max() functions, with a time complexity of O(n).
