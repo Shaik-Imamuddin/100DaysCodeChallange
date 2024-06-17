@@ -1,0 +1,57 @@
+Sentence Smash
+Write a program that takes an array of words and smashes them together into a sentence and prints the sentence.
+You can ignore any need to sanitize words or add punctuation, but you should add spaces between each word. Be careful,
+there shouldn't be a space at the beginning or the end of the sentence!
+
+sample Tests:
+
+Testcase-1:
+Input:5
+this
+is
+a
+good
+day
+Output:['this', 'is', 'a', 'good', 'day']
+this is a good day
+
+Testcase-2:
+Input:3
+may
+be 
+it happen's
+Output:['may', 'be ', "it happen's"]
+may be  it happen's
+
+Testcase-3:
+Input:4
+is
+it
+happened
+now
+Output:['is', 'it', 'happened', 'now']
+is it happened now
+
+Testcase-4:
+Input:6
+today
+is
+a
+sunday
+how good
+actually
+Output:['today', 'is', 'a', 'sunday', 'how good', 'actually']
+today is a sunday how good actually
+
+Time Complexity:
+
+In SentenceSmash.py
+
+The third implementation using string concatenation in a loop has a time complexity of O(n^2),
+making it less efficient compared to the other implementations which all have a time complexity of O(n).
+The most efficient and straightforward method is the fourth implementation, which uses only the join() method.
+
+
+
+
+
