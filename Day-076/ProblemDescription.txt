@@ -1,0 +1,60 @@
+DESCRIPTION:
+I'm new to coding and now I want to get the sum of two arrays...
+Actually the sum of all their elements. I'll appreciate for your help.
+
+P.S. Each array includes only integer numbers. Output is a number too.
+
+Sample tests:
+
+Testcase-1:
+Input:Enter size of arr1:5
+Enter element 1:45
+Enter element 2:67
+Enter element 3:45
+Enter element 4:34
+Enter element 5:45
+Enter size of arr2:3
+Enter element 1:45
+Enter element 2:89
+Enter element 3:676
+Output:The sum of 2 arrays: 1046
+
+Testcase-2:
+Input:Enter size of arr1:2
+Enter element 1:568
+Enter element 2:456
+Enter size of arr2:4
+Enter element 1:123
+Enter element 2:432
+Enter element 3:527
+Enter element 4:943
+Output:The sum of 2 arrays: 3049
+
+Testcase-3:
+Input:Enter size of arr1:2
+Enter element 1:7890
+Enter element 2:4569
+Enter size of arr2:3
+Enter element 1:12345
+Enter element 2:7896
+Enter element 3:567
+Output:The sum of 2 arrays: 33267
+
+Testcase-4:
+Input:Enter size of arr1:3
+Enter element 1:345
+Enter element 2:567
+Enter element 3:67
+Enter size of arr2:3
+Enter element 1:56
+Enter element 2:6789
+Enter element 3:7867
+Output:The sum of 2 arrays: 15691
+
+Time Complexity:
+
+In ArrayPlusArray.py
+
+All the methods provided (except for the third one which may have extra overhead due to the *args unpacking) 
+have the same overall time complexity of O(n1 + n2). 
+However, the most straightforward and efficient in terms of readability and performance is the fifth method.
