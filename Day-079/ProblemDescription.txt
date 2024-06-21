@@ -1,0 +1,41 @@
+DESCRIPTION:
+
+Given an array of integers, print a new array with each value doubled.
+
+For example:
+
+[1, 2, 3] --> [2, 4, 6]
+
+Sample Tests
+
+Testcase-1:
+Input:4
+56
+78
+23
+45
+Output:[56, 78, 23, 45]
+[112, 156, 46, 90]
+
+Testcase-2:
+Input:3
+1111
+2222
+3333
+Output:[1111, 2222, 3333]
+[2222, 4444, 6666]
+
+Testcase-3:
+Input:4
+456
+789
+1024
+1246
+Output:[912, 1578, 2048, 2492]
+[456,789,1024,1246]
+
+Time Complexity:
+In LostWithoutAMap.py
+
+Both methods have a time complexity of O(n), 
+making them both efficient for this task.
