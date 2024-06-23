@@ -1,0 +1,48 @@
+DESCRIPTION:
+You get an array of numbers, return the sum of all of the positives ones.
+
+Example [1,-4,7,12] => 1 + 7 + 12 = 20
+
+Note: if there is nothing to sum, the sum is default to 0.
+
+Sample Tests:
+
+Testcase-1:
+Input:5
+789
+321
+432
+546
+-685
+Output:2088
+
+Testcase-2:
+Input:4
+-567
+-56
+-78
+-89
+Output:0
+
+Testcase-3:
+Input:3
+456
+-6578
+45
+Output:501
+
+Testcase-4:
+Input:5
+789
+321
+432
+546
+-685
+Output:2088
+
+Time Complexity:
+
+In SumOfPositive.py
+
+All three methods have a time complexity of O(n), 
+where n is the number of elements in the input list.
