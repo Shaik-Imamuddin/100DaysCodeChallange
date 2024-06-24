@@ -1,0 +1,39 @@
+Problem Description:
+
+Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
+
+For example, if we run 9119 through the function, 811181 will come out, because 9^2 is 81 and 1^2 is 1. (81-1-1-81)
+
+Example #2: An input of 765 will/should return 493625 because 7^2 is 49, 6^2 is 36, and 5^2 is 25. (49-36-25)
+
+Happy Coding!
+
+Sample Tests:
+
+Test case-1:
+Input:123
+Output:149
+
+Test case-2:
+Input:821
+Output:6441
+
+Test case-3:
+Input:999
+Output:818181
+
+Test case-4:
+Input:456
+Output:162536
+
+Time Complexity:
+
+In SquareEveryDigit.py
+
+The first two methods that use string concatenation in the loop have a time complexity of O(n^2)
+due to the repeated string concatenation. The other methods that use list comprehensions, map, and join have a time complexity of O(n),
+making them more efficient for large inputs.
+
+
+
+
