@@ -1,0 +1,43 @@
+DESCRIPTION:
+Write a program that accepts a string and a single character, and prints an integer of the count of occurrences the 2nd argument is found in the first one.
+
+If no occurrences can be found, a count of 0 should be returned.
+
+("Hello", 'o')  =>  1
+("Hello", 'l')  =>  2
+("", 'z')       =>  0
+
+Notes:
+The first argument can be an empty string
+In languages with no distinct character data type, the second argument will be a string of length 1
+
+Sample Tests:
+Testcase-1:
+Input: hello
+l
+Output:2
+
+Testcase-2:
+Input: happy
+p
+Output:2
+
+Testcase-3:
+Input: apple
+a
+Output:1
+
+Testcase-4:
+Input: operator
+o
+Output:2
+
+Testcase-5:
+Input: database
+a
+Output:3
+
+Time Complexity:
+In CountOfLetterInAString.py
+
+All methods have a time complexity of O(n), where n is the length of the input string
