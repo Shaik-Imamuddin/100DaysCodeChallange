@@ -1,0 +1,49 @@
+DESCRIPTION:
+Messi goals program
+
+Messi is a soccer player with goals in three leagues:
+
+LaLiga
+Copa del Rey
+Champions
+
+Complete the program to print his total number of goals in all three leagues.
+
+Note: the input will always be valid.
+
+For example:
+
+5, 10, 2  -->  17
+
+Sample Tests:
+
+Testcase-1:
+Input:12
+12
+23
+Output:47
+
+Testcase-2:
+Input:1
+21
+1
+Output:23
+
+Testcase-3:
+Input:9
+9
+8
+Output:26
+
+Testcase-4:
+Input:4
+21
+2
+Output:27
+
+Time Complexity:
+In MessiGoals.py
+
+Both methods have a time complexity of O(1)
+
+making them both highly efficient for this task.
