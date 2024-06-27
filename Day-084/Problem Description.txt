@@ -1,0 +1,30 @@
+DESCRIPTION:
+In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+
+Notes
+The number can be negative already, in which case no change is required.
+Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
+
+sample Testcases:
+
+Testcase-1:
+Input:7
+Output:-7
+
+Testcase-2:
+Input:2
+Output:-2
+
+Testcase-3:
+Input:0
+Output:0
+
+Testcase-4:
+Input:23
+Output:-23
+
+Time Complexity:
+In ReturnNegative.py
+
+all methods have a time complexity of O(1),
+making them  highly efficient for this task. 
