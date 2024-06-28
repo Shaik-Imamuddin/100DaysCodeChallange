@@ -1,0 +1,30 @@
+DESCRIPTION:
+Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. print the resulting string.
+
+Note: input will never be an empty string
+
+Sample Tests:
+
+Testcase-1:
+Input:663472
+Output:110010
+
+Testcase-2:
+Input:987349
+Output:111001
+
+Testcase-3:
+Input:1230492
+Output:0000010
+
+Testcase-4:
+Input:9347112
+Output:1001000
+
+
+Time Complexity:
+
+In FakeBinary.py
+
+In summary, all the methods provided have a time complexity of O(n), 
+where n is the length of the input string.
