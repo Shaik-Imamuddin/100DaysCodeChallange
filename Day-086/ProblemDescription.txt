@@ -1,0 +1,40 @@
+DESCRIPTION:
+Your classmates asked you to copy some paperwork for them. You know that there are 'n' classmates and the paperwork has 'm' pages.
+
+Your task is to calculate how many blank pages do you need. If n < 0 or m < 0 return 0.
+
+Example:
+n= 5, m=5: 25
+n=-5, m=5:  0
+
+Waiting for translations and Feedback! Thanks!
+
+
+Sample Tests:
+
+Testcase-1:
+Input:45
+34
+Output:1530
+
+Testcase-2:
+Input:-90
+55
+Output:0
+
+Testcase-3:
+Input:100
+50
+Output:5000
+
+Testcase-4:
+Input:45
+45
+Output:2025
+
+Time Complexity:
+
+In BlankPages.py
+
+all the methods have a time complexity of O(1),
+since they involve a fixed number of simple operations.
