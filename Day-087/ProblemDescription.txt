@@ -1,0 +1,33 @@
+DESCRIPTION:
+You ask a small girl,"How old are you?" She always says, "x years old", where x is a random number between 0 and 9.
+
+Write a program that returns the girl's age (0-9) as an integer.
+
+Assume the test input string is always a valid string. 
+For example, the test input may be "1 year old" or "5 years old". The first character in the string is always a number.
+
+Sample Tests:
+
+Test case-1:
+Input:2 years old
+Output:2
+
+Test case-2:
+Input:4 years old
+Output:4
+
+Test case-3:
+Input:5 years old
+Output:5
+
+Test case-4:
+Input:9 years old
+Output:9
+
+Time Complexity:
+
+In SmallGirlAge.py
+
+The first and second method is having the time complexity of O(1)
+
+And the third method is having the time complexity of O(n).
