@@ -1,0 +1,36 @@
+DESCRIPTION:
+
+Write a program which answers the question "Are you playing banjo?".
+If your name starts with the letter "R" or lower case "r", you are playing banjo!
+
+The program takes a name as its input, and prints one of the following strings:
+
+name + " plays banjo" 
+name + " does not play banjo"
+Names given are always valid strings.
+
+
+Sample Tests:
+
+Testcase-1:
+Input:ramesh
+Output:ramesh plays banjo
+
+Testcase-2:
+Input:suresh
+Output:suresh does not play banjo
+
+Testcase-3:
+Input:mahesh
+Output:mahesh does not play banjo
+
+Testcase-4:
+Input:Rakesh
+Output:Rakesh plays banjo
+
+
+Time Complexity:
+In AreYouPlayingBanjo.py
+
+Both methods are efficient and have a time complexity of O(1)
+which means they run in constant time regardless of the size of the input.
