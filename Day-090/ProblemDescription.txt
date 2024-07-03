@@ -1,0 +1,32 @@
+DESCRIPTION:
+It's pretty straightforward. Your goal is to write a program that removes the first and last characters of a string. 
+You're given one Input, the original string. 
+You don't have to worry about strings with less than two characters.
+
+Sample Tests:
+
+Testcase-1:
+Input:apple
+Output:ppl
+
+Testcase-2:
+Input:happy
+Output:app
+
+Testcase-3:
+Input:sad
+Output:a
+
+Testcase-4:
+Input:to
+Output:
+
+Time Complexity:
+In RemoveFirstAndLastCharecter.py
+
+In summary, all the methods provided for the task have a time complexity of O(n), 
+where n is the length of the input string.
+
+
+
+
