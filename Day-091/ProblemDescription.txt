@@ -15,7 +15,7 @@ Output:2
 
 Testcase-2:
 Input:dolbyaudio
-Output:0
+Output:5
 
 Testcase-3:
 Input:
