@@ -1,0 +1,35 @@
+DESCRIPTION:
+
+Print the number (count) of vowels in the given string.
+
+We will consider a, e, i, o, u, A, E, I, O, U as vowels for this Kata (but not y).
+
+The input string will only consist of lower case and Upper case letters.
+
+
+Sample Testcases:
+
+Testcase-1:
+Input:Apple
+Output:2
+
+Testcase-2:
+Input:dolbyaudio
+Output:0
+
+Testcase-3:
+Input:
+Output:0
+
+Testcase-4:
+Input:baseball
+Output:3
+
+Testcase-5:
+Input:copycat
+Output:2
+
+Time Complexity:
+
+all the methods have a time complexity of O(n), 
+making them efficient for counting vowels in a sentence.
