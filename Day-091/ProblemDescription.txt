@@ -14,8 +14,8 @@ Input:Apple
 Output:2
 
 Testcase-2:
-Input:dolbyaudio
-Output:0
+Input:dolbyAudio
+Output:5
 
 Testcase-3:
 Input:
