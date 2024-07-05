@@ -1,0 +1,48 @@
+You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
+
+Array can contain numbers or strings. X can be either.
+
+Print true if the array contains the value, false if not.
+
+Sample Tests:
+
+Testcase-1:
+Input:5
+76
+345
+90
+89
+120
+90
+Output:True
+
+Testcase-2:
+Input:3
+apple
+ball
+78
+cat
+Output:False
+
+Testcase-3:
+Input:3
+rocky
+45
+jockey
+55
+Output:False
+
+Testcase-4:
+Input:5
+234
+567
+890
+sachin
+amul
+reenu
+Output:False
+
+Time Complexity:
+In YouOnlyNeedOne.py
+
+Both methods will efficiently check for the presence of an element in the list with a time complexity of O(n).
