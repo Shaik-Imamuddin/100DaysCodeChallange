@@ -1,0 +1,45 @@
+Description:
+Write a program which calculates the average of the numbers in a given list.
+
+Note: Empty arrays should return 0.
+
+
+Sample Tests:
+Testcase-1:
+Input:5
+34
+67
+89
+90
+123
+Output:[34, 67, 89, 90, 123]
+80.6
+
+Testcase-2:
+Input:4
+123
+456
+789
+1023
+Output:[123, 456, 789, 1023]
+597.75
+
+Testcase-3:
+Input:0
+Output:[]
+0
+
+Testcase-4:
+Input:3
+123214
+542568
+129765
+Output:[123214, 542568, 129765]
+265182.3333333333
+
+Time Complexity:
+
+in CalculateAverage.py
+
+all the methods have a time complexity of O(n), 
+making them equally efficient in terms of computational complexity.
