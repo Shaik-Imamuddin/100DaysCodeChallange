@@ -1,0 +1,36 @@
+DESCRIPTION:
+Write a program that accepts an integer n and a string s as input, and prints a string of s repeated exactly n times.
+
+Sample Tests:
+
+Testcase-1:
+Input:5
+heart
+Output:heartheartheartheartheart
+
+Testcase-2:
+Input:6
+data
+Output:datadatadatadatadatadata
+
+Testcase-3:
+Input:8
+for
+Output:forforforforforforforfor
+
+Testcase-4:
+Input:9
+while
+Output:whilewhilewhilewhilewhilewhilewhilewhilewhile
+
+Testcase-5:
+Input:8
+break
+Output:breakbreakbreakbreakbreakbreakbreakbreak
+
+Time Complexity:
+
+In Stringrepeat.py
+
+all the methods have a time complexity of O(n), 
+making them equally efficient in terms of computational complexity.
