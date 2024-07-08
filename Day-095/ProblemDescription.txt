@@ -1,0 +1,35 @@
+Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
+
+Examples:
+
+solution('abc', 'bc') # returns true
+solution('abc', 'd') # returns false
+
+Sample Tests:
+
+Testcase-1:
+Input:apple
+e
+Output:True
+
+Testcase-2:
+Input:happy
+s
+Output:False
+
+Testcase-3:
+Input:trouble
+t
+Output:False
+
+Testcase-4:
+Input:true
+e
+Output:True
+
+Time Complexity:
+
+In StringEndsWith.py
+
+All these methods have a time complexity of O(n)
+where n is the length of the ending string.
