@@ -1,0 +1,29 @@
+DESCRIPTION:
+Write a program that returns an array of integers from n to 1 where n>0.
+
+Example : n=5 --> [5,4,3,2,1]
+
+Sample Tests:
+
+Testcase-1:
+Input:6
+Output:[6, 5, 4, 3, 2, 1]
+
+Testcase-2:
+Input:10
+Output:[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+Testcase-3:
+Input:8
+Output:[8, 7, 6, 5, 4, 3, 2, 1]
+
+Testcase-4:
+Input:4
+Output:[4, 3, 2, 1]
+
+
+Time Complexity:
+
+In ReversedSequence.py
+
+All these methods have a time complexity of O(n) since they involve iterating over the range of numbers from 1 to n.
