@@ -1,0 +1,30 @@
+DESCRIPTION:
+Complete the solution so that it reverses the string passed into it.
+
+Sample Testcases:
+
+Testcase-1:
+Input:hardware
+Output:erawdrah
+
+Testcase-2:
+Input:software
+Output:erawtfos
+
+Testcase-3:
+Input:program
+Output:margorp
+
+Testcase-4:
+Input:computer
+Output:retupmoc
+
+Time Complexity:
+
+In StringReverse.py
+
+Most methods for reversing a string have a time complexity of O(n),
+except for the method using string concatenation inside a loop,
+which has a time complexity of O(n^2).
+This is due to the inefficiency of repeatedly concatenating strings in Python,
+as each concatenation operation takes linear time.
