@@ -1,0 +1,60 @@
+DESCRIPTION:
+Given an array of integers.
+
+Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers. 0 is neither positive nor negative.
+
+If the input is an empty array or is null, return an empty array.
+
+Example
+For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
+
+
+Sample Tests:
+
+Testcase-1:
+Input:6
+34
+-56
+67
+-78
+-68
+-98
+Output:[34, -56, 67, -78, -68, -98]
+[2, -300]
+
+Testcase-2:
+Input:5
+23
+45
+67
+-454
+-6756
+Output:[23, 45, 67, -454, -6756]
+[3, -7210]
+
+Testcase-3:
+Input:7
+345
+456
+567
+3546
+-46745
+-45645
+345
+Output:[345, 456, 567, 3546, -46745, -45645, 345]
+[5, -92390]
+
+Testcase-4:
+Input:3
+235334
+3456
+-45645
+Output:[235334, 3456, -45645]
+
+Time Complexity:
+
+In CountOfPositiveSumOfNegative.py
+
+All methods have a time complexity of O(n). They all involve collecting inputs,
+processing each element, and performing operations on each element a constant number of times.
+This results in linear time complexity for all the provided methods.
