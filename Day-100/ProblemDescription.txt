@@ -1,0 +1,39 @@
+Description:
+Write a python program to calculate the simple intrest.
+
+Formula ==>  simple interest = (p*t*r)/100
+
+Where p = princeple Amount , r = Rate of intrest , T = Time Period
+
+Sample Testcases:
+Testcase-1:
+Input:Enter Principal Amount: 50000
+Enter Rate of Interest: 4
+Enter Time Period in Months: 6
+Output:Simple Interest is: 12000.0
+
+Testcase-2:
+Input:Enter Principal Amount: 45200
+Enter Rate of Interest: 7
+Enter Time Period in Months: 80
+Output:Simple Interest is: 253120.0
+
+Testcase-3:
+Input:Enter Principal Amount: 788880
+Enter Rate of Interest: 3
+Enter Time Period in Months: 36
+Output:Simple Interest is: 851990.4
+
+Testcase-4:
+Input:Enter Principal Amount: 320000
+Enter Rate of Interest: 10
+Enter Time Period in Months: 12
+Output:Simple Interest is: 384000.0
+
+
+Time Complexity:
+
+In SimpleIntrest.py
+
+Both the methods have a time complexity of O(1), 
+making them equally efficient in terms of computational complexity.
