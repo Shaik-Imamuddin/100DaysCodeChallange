@@ -1,4 +1,6 @@
-# 100DaysCodeChallange
-Iam Exited to start 100Days Coding challange
+💯 100 Days of Code Challenge - Completed! 🎉
+I successfully completed the 100 Days of Code Challenge, where I dedicated myself to coding every day for 100 days. This journey helped me improve my skills, learn new concepts, and build a consistent coding habit.
 
-Embarking on a 100-day coding journey! Ready to dive deep into the world of programming, one day at a time. Each day brings fresh opportunities to learn and grow. Let's code our way to success! #100DaysCodeChallange.
+Highlights:
+📚 Explored various problem-solving techniques.
+🚀 Enhanced my understanding of Fundamentals, control flow, functions, and error handling.
